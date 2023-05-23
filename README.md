@@ -34,9 +34,10 @@ The scripts require a certain folder structure, thus the table below presents th
 |```src```|model and data scripts|```vectorizer.py```, ```logistic_regression_classifier.py```, ```neural_network.py```|
 |```out```|classification reports|```LR_metrics_report.txt```, ```NN_metrics_report.txt```|
 |```models```|models|```LR_classifier.joblib```, ```NN_classifier.joblib```, ```mtfidf_vectorizer```|
+|```in```|data|```fake_or_real_news.csv```|
 
 
-The ```vectorizer.py``` script located in ```src``` produces training and test data. The ```logistic_regression_classifier.py``` and the ```neural_network.py``` located in the ```src``` 
+The ```vectorizer.py``` script located in ```src``` produces training and test data from the .csv file in the  ```in``` folder. The ```logistic_regression_classifier.py``` and the ```neural_network.py``` located in the ```src``` 
  folder produce models which are saved in the folder ```models``` and classification reports which are saved in the folder ```out```. 
 
 
